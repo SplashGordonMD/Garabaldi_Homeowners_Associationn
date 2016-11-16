@@ -1,0 +1,5 @@
+<h1>Listing info</h1>
+<h2>Name: <%= @listing.name %></h2>
+<p>Address: <%= @listing.address %></p>
+
+<%= link_to "Destroy this listing", "/listings/#{@listing.id}", method: :delete %>
