@@ -1,5 +1,9 @@
 <h1>All Listings</h1>
+<div class="row">
 <% @listings.each do |listing| %>
+<div class="col-md-4">
   <h2>Name: <%= listing.name %></h2>
   <p>Address: <%= listing.address %><p>
+  </div>
 <% end %>
+</div>
